@@ -1,0 +1,45 @@
+name: firebase_example
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: any
+
+  # ---- Service injection container ----
+  get_it: ^8.0.3
+
+  # ---- Flutter bloc ----
+  flutter_bloc: ^9.0.0
+
+  # ---- Provider ----
+  provider: ^6.1.2
+
+  # ---- Value equality ---- #
+  equatable: ^2.0.7
+
+  dartz: ^0.10.1
+
+  # ---- keyboard_state ---- #
+  flutter_keyboard_visibility: ^6.0.0
+
+  adaptive_theme: ^3.7.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
